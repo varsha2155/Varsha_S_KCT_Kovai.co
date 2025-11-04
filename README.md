@@ -1,4 +1,5 @@
-Dataset Desription: Dataset is basically having data on different service based passenger journey in daily public transport.
+*Forecasting with SARIMAX*
+Dataset Desription: Dataset is basically having data on different service based passenger journey in daily public transport
 
 Attributes- 7 (Date, Local ROute, Light Rail, Peak Service,Rapid Route, School,Other)
 Records- 1919 
@@ -45,5 +46,7 @@ OUTPUT- 7 DAY FORECASTING
 
 
 KEY INSIGHTS:
-1. School Service is absorved to have seasonality, since students have holidays in weekends
-2. Student and Peak services are low when compared with all others, stating other services are held more for public transport
+1. Passenger service is high midweek at weekdays, stating more passengers take public transports at weekdays and there is a noticable drop at weekends due to absence of work hours and school hours
+2. Rapid route count is high indicating high demand areas and School and Peak services have less count and have sudden peaks indicationg school or officehours at weekdays 
+3. Peak service have one outlier - sudden festival or event peak due to unpredictable sudden events
+4. We could use weekends for vehicle management and inspections
