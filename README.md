@@ -4,6 +4,11 @@ Dataset Desription: Dataset is basically having data on different service based 
 Attributes- 7 (Date, Local ROute, Light Rail, Peak Service,Rapid Route, School,Other)
 Records- 1919 
 
+Pre- Observation from data
+After sorting and ploting each services in Public Transport, we could observe proper seasonality at weekdays at general
+Others column is considered irrelevant to the forecasting conditions took and has null values is dropped from dataset
+
+
 OUTPUT- 7 DAY FORECASTING
 7-Day Forecast Summary (Values within 95% Confidence Range)
 
